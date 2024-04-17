@@ -1,0 +1,98 @@
+(base) C:\Users\Raj>cd C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>pip install ekkono.primer-22.10-cp310-cp310-win_amd64.whl
+Defaulting to user installation because normal site-packages is not writeable
+ERROR: ekkono.primer-22.10-cp310-cp310-win_amd64.whl is not a supported wheel on this platform.
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>where python
+C:\ProgramData\anaconda3\python.exe
+C:\Users\Raj\AppData\Local\Programs\Python\Python311\python.exe
+C:\Users\Raj\AppData\Local\Programs\Python\Python310\python.exe
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>python --version
+Python 3.11.7
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>conda activate .conda
+
+EnvironmentNameNotFound: Could not find conda environment: .conda
+You can list all discoverable environments with `conda info --envs`.
+
+
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\anaconda3
+                         c:\Users\Raj\OneDrive\Desktop\Developer\Ekkono\.conda
+
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>conda create -n ekkono python=3.10
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Raj\.conda\envs\ekkono
+
+  added / updated specs:
+    - python=3.10
+
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_5
+  ca-certificates    pkgs/main/win-64::ca-certificates-2024.3.11-haa95532_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_0
+  openssl            pkgs/main/win-64::openssl-3.0.13-h2bbff1b_0
+  pip                pkgs/main/win-64::pip-23.3.1-py310haa95532_0
+  python             pkgs/main/win-64::python-3.10.14-he1021f5_0
+  setuptools         pkgs/main/win-64::setuptools-68.2.2-py310haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.41.2-h2bbff1b_0
+  tk                 pkgs/main/win-64::tk-8.6.12-h2bbff1b_0
+  tzdata             pkgs/main/noarch::tzdata-2024a-h04d1e81_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/win-64::wheel-0.41.2-py310haa95532_0
+  xz                 pkgs/main/win-64::xz-5.4.6-h8cc25b3_0
+  zlib               pkgs/main/win-64::zlib-1.2.13-h8cc25b3_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate ekkono
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>conda activate ekkono
+
+(ekkono) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>pip install ekkono.primer-22.10-cp310-cp310-win_amd64.whl
+Processing c:\users\raj\downloads\ekkono-sdk-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10\ekkono.primer-22.10-cp310-cp310-win_amd64.whl
+Installing collected packages: ekkono.primer
+Successfully installed ekkono.primer-22.10
+
+(ekkono) C:\Users\Raj\Downloads\Ekkono-SDK-22.10\ekkono-sdk\primer\python\w64-x86_64\3.10>pip install plotly
+Collecting plotly
+  Using cached plotly-5.20.0-py3-none-any.whl.metadata (7.0 kB)
+Collecting tenacity>=6.2.0 (from plotly)
+  Using cached tenacity-8.2.3-py3-none-any.whl.metadata (1.0 kB)
+Requirement already satisfied: packaging in c:\users\raj\appdata\roaming\python\python310\site-packages (from plotly) (24.0)
+Using cached plotly-5.20.0-py3-none-any.whl (15.7 MB)
+Using cached tenacity-8.2.3-py3-none-any.whl (24 kB)
+Installing collected packages: tenacity, plotly
+
+
